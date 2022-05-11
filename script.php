@@ -18,7 +18,7 @@ function validaCPF(){
     @$soma = ($n1 + $n2 + $n3 + $n4 + $n5 + $n6 + $n7 + $n8 + $n9 + $n10 + $n11);
    // echo "Resultado: $soma";
 
-    // Vericar se o CPF é válido
+    // Verificar se o CPF é válido
     if($soma == 10){
         $soma = true;
         echo 'CPF Válido!';
